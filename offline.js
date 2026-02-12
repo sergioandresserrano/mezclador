@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1770935095,
+	"version": 1770935686,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -43,12 +43,26 @@
 		"media/bip3.ogg",
 		"media/bip4.m4a",
 		"media/bip4.ogg",
+		"media/copy.m4a",
+		"media/copy.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
 		"icon-128.png",
 		"icon-256.png",
 		"loading-logo.png",
+		"loading-logo2.png",
+		"icon-257.png",
+		"icon-129.png",
+		"icon-115.png",
+		"icon-33.png",
+		"icon-17.png",
+		"loading-logo3.png",
+		"icon-258.png",
+		"icon-130.png",
+		"icon-116.png",
+		"icon-34.png",
+		"icon-18.png",
 		"blend.txt",
 		"styles.css"
 	]
