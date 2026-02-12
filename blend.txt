@@ -1,0 +1,73 @@
+var global = Function('return this')(); 
+
+global.hello = function(word)
+{
+	var s = "";
+        s= "Hello " + word;
+        return s;
+};
+
+
+
+
+global.blendColors = function(hex1, hex2, steps) {
+
+  hex1 = hex1.replace("#", "");
+  hex2 = hex2.replace("#", "");
+
+  const c1 = {
+    r: parseInt(hex1.slice(0, 2), 16),
+    g: parseInt(hex1.slice(2, 4), 16),
+    b: parseInt(hex1.slice(4, 6), 16),
+  };
+
+  const c2 = {
+    r: parseInt(hex2.slice(0, 2), 16),
+    g: parseInt(hex2.slice(2, 4), 16),
+    b: parseInt(hex2.slice(4, 6), 16),
+  };
+
+  const results = [];
+
+  for (let i = 0; i < steps; i++) {
+    const t = i / (steps - 1);
+
+    const r = Math.round(c1.r + (c2.r - c1.r) * t);
+    const g = Math.round(c1.g + (c2.g - c1.g) * t);
+    const b = Math.round(c1.b + (c2.b - c1.b) * t);
+
+    const hex =
+      "#" +
+      [r, g, b]
+        .map(v => v.toString(16).padStart(2, "0"))
+        .join("");
+
+    // Push in the "#hex::r::g::b" format
+    results.push(`${hex}::${r}::${g}::${b}`);
+  }
+
+  // Join all steps with "::"
+  return results.join("::");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

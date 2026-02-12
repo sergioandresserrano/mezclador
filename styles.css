@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 0.5vw !important;
+	text-decoration: none;
+	color: #000;
+	font-family: "Poppins", sans-serif;
+}
+
+#texto {
+	font-family: "Poppins", sans-serif;
+	font-size: 0.5vw !important;
+	background: transparent;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none !important;
+	outline: none !important;
+	margin: 0px auto;
+	border: 0px none !important;
+	border-radius: 0px !important;
+	padding: 0 !important;
+	box-sizing: border-box;
+	background-color: transparent !important;
+	padding-block: 0px !important;
+	padding-inline: 0px !important;
+}
+
+input:focus {
+	text-decoration: none !important;
+	outline: none !important;
+	margin: 0px auto;
+	border: 0px none !important;
+	border-radius: 0px !important;
+	padding: 0 !important;
+	box-sizing: border-box;
+	background-color: transparent !important;
+	padding-block: 0px !important;
+	padding-inline: 0px !important;
+}
+
+#texto:focus {
+	text-decoration: none !important;
+	outline: none !important;
+	margin: 0px auto;
+	border: 0px none !important;
+	border-radius: 0px !important;
+	padding: 0 !important;
+	box-sizing: border-box;
+	background-color: transparent !important;
+	padding-block: 0px !important;
+	padding-inline: 0px !important;
+}
+
+input[type="color" i] {
+	text-decoration: none !important;
+	outline: none !important;
+	margin: 0px auto;
+	border: 0px none !important;
+	border-radius: 0px !important;
+	padding: 0 !important;
+	box-sizing: border-box;
+	background-color: transparent !important;
+	padding-block: 0px !important;
+	padding-inline: 0px !important;
+}
